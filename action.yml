@@ -4,6 +4,12 @@ author: 'Abhijith V <abhijithababhijith@gmail.com>'
 branding:
   icon: 'terminal'
   color: 'blue'
+inputs:
+  command:  
+    description: 'command for executing'
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+    - ${{ inputs.command }}
