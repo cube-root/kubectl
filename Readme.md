@@ -18,7 +18,7 @@ To use kubectl put this step into your workflow:
 
 
 ```yaml
-- uses: cube-root/kubectl@1.0.1
+- uses: cube-root/kubectl@v1
   env:
     KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
   with:
