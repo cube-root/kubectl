@@ -18,11 +18,11 @@ To use kubectl put this step into your workflow:
 
 
 ```yaml
-- uses: cube-root/kubectl
+- uses: cube-root/kubectl@1.0.1
   env:
     KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
-  run: |
-    kubectl get pods && kubectl get deploy
+  with:
+    command: kubectl get pods
 ```
 
 
