@@ -1,4 +1,4 @@
-name: 'kubectl'
+name: 'kubectl command line tool for github actions'
 description: Kubectl command for github action
 author: 'Abhijith V <abhijithababhijith@gmail.com>'
 branding:
