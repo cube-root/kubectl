@@ -1,0 +1,9 @@
+name: 'kubectl'
+description: Kubectl command for github action
+author: 'Abhijith V <abhijithababhijith@gmail.com>'
+branding:
+  icon: 'terminal'
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
